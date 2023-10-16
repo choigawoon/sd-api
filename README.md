@@ -1,3 +1,12 @@
+It`s from https://github.com/jaschahuisman/sd-api  
+I have some fixed when using img2img.
+
+how to publish
+```
+npm run build
+npm publish --access public
+```
+
 # Stable Diffusion Api
 
 ![npm](https://img.shields.io/npm/v/stable-diffusion-api)
