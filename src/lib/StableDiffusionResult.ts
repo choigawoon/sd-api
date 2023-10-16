@@ -24,7 +24,7 @@ import sharp from "sharp";
  *   image.toFile(`result_${i}.png`)
  * })
  */
-export default class StableDiffusionResult {
+export class StableDiffusionResult {
   images: sharp.Sharp[] = [];
   info: any;
   parameters: any;

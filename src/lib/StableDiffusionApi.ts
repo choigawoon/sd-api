@@ -19,7 +19,7 @@ import { type Sharp } from "sharp";
 import axios from "axios";
 import stringSimilarity from "string-similarity";
 
-import StableDiffusionResult from "./StableDiffusionResult";
+import { StableDiffusionResult } from "./StableDiffusionResult";
 import { ControlNetApi } from "./ControlNetApi";
 import { toBase64 } from "../utils/base64";
 import { ControlNetUnit } from "./ControlNetUnit";

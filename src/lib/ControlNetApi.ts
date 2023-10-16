@@ -1,6 +1,6 @@
 import { ControlNetDetectOptions } from "../types";
 import { toBase64 } from "../utils/base64";
-import StableDiffusionResult from "./StableDiffusionResult";
+import { StableDiffusionResult } from "./StableDiffusionResult";
 import { StableDiffusionApi } from "./StableDiffusionApi";
 
 /**
